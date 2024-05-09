@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navbar */
+#navbar {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 10px 0;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+  
